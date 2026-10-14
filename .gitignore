@@ -1,0 +1,18 @@
+# Virtual Environment
+.venv/
+env/
+venv/
+
+# Python Cache
+__pycache__/
+*.pyc
+
+# Data and Generated Outputs (Keep git lightweight)
+data/temp_charts/
+data/*.csv
+data/*.pdf
+models/*.pkl
+models/*.pt
+
+# OS Files
+.DS_Store
